@@ -29,6 +29,10 @@ body:
     attributes:
       label: Risks & Rabbit holes
       description: "Details about the solution worth calling out to avoid problems."
+      value: |
+        ## Technical Unknowns
+        ## Unsolved Design Problems
+        And some more markdown
     validations:
       required: true
   - type: textarea
@@ -38,40 +42,6 @@ body:
       description: "Anything specifically excluded from the concept: functionality or use cases we intentionally aren’t covering to fit the appetite or make the problem tractable."
     validations:
       required: true
-      
-      
-      
-      
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
   - type: markdown
     attributes:
       value: |
