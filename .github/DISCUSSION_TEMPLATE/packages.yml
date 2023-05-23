@@ -24,14 +24,14 @@ body:
       description: "The core elements we came up with, presented in a form that’s easy for people to immediately understand."
     validations:
       required: true    
-   - type: textarea
+  - type: textarea
     id: risks
     attributes:
       label: Risks & Rabbit holes
       description: "Details about the solution worth calling out to avoid problems."
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: no-gos
     attributes:
       label: No gos
