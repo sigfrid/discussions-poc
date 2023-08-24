@@ -1,0 +1,9 @@
+[
+  { "name": "duplicate",    "color": "a992f4",  "description": "This issue already exists" },
+  { "name": "feature",      "color": "bb03c1",  "description": "This issue introduces a new functionality" },
+  { "name": "fix",          "color": "d73a4a",  "description": "This issue corrects something that isn't working as expected" },
+  { "name": "no-changelog", "color": "cfd3d7",  "description": "This issue won't be included in the changelog when drafting a release" },
+  { "name": "process",      "color": "4562a8",  "description": "This issue improves the development/deployment process" },
+  { "name": "URS123",       "color": "23197f",  "description": "This feature is required by URS123" },
+  { "name": "wontfix",      "color": "ff7cde",  "description": "This issue won't be developed" }
+]
