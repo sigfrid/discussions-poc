@@ -1,13 +1,11 @@
 name: labels
-on:
- issues:
-   types: [opened]
+on: issues
 jobs:
   labels:
     name: Create labels
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@1.0.0
-      - uses: lannonbr/issue-label-manager-action@4.0.0
+      - uses: lannonbr/issue-label-manager-action@3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
