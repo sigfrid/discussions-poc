@@ -1,4 +1,4 @@
 [
   { "name": "duplicate", "color": "a992f4", "description": "This issue already exists" },
-  { "name": "wontfix", "color": "ff7cde", "description": "This issue won't be developed" }
+  { "name": "!wontfix!", "color": "ff7cde", "description": "This issue won't be developed" }
 ]
