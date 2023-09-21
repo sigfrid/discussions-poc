@@ -1,16 +1,16 @@
 title: "[NAME THE PACKAGE]"
 body:
  - type: textarea
-    id: requirements
-    attributes:
-      label: The requirements
-      description: "The list of the requirements addressed in the discussion."
-      value: |
-        1.
-        2.
-        3.
-    validations:
-      required: true
+   id: requirements
+   attributes:
+     label: The requirements
+     description: "The list of the requirements addressed in the discussion."
+     value: |
+       1.
+       2.
+       3.
+   validations:
+     required: true
   - type: textarea
     id: problem
     attributes:
